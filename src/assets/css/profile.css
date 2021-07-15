@@ -1,0 +1,69 @@
+.phead {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(173, 222, 226);
+    border-bottom: 1px solid rgb(180, 178, 178);
+    color: #fff;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0px 15px;
+}
+
+.phead div:nth-child(1) {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.ptop {
+    width: 100%;
+    height: calc(35vh - 60px);
+    border-bottom: 1px solid #777;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ptop .ptop__avatar {
+    width: 100px;
+    height: 100px;
+    background-color: #999;
+    border-radius: 100%;
+    margin-bottom: 10px;
+
+    box-shadow: 2px 2px 2px #222;
+}
+
+.pbottom {
+    width: 100%;
+    height: calc(70vh - 60px);
+}
+
+.pbottom ul li {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #999;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+
+    padding: 0px 10px;
+
+}
+
+.pbottom ul li form input[type="submit"] {
+    border: none;
+    outline: none;
+    background: none;
+
+    color: #555;
+    font-size: 16px;
+}

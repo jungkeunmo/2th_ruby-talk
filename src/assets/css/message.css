@@ -1,0 +1,60 @@
+.mhead {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(173, 222, 226);
+    border-bottom: 1px solid rgb(180, 178, 178);
+    color: #fff;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0px 15px;
+}
+
+.mhead div:nth-child(1) {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.mlist {
+    width: 100%;
+}
+
+.mlist .mlist__rBox,
+.mlist .mlist__sBox {
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #777;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+
+    padding: 0px 10px;
+}
+
+.mlist .mlist__rBox p:nth-child(1) {
+    font-size: 14px;
+    font-weight: 900;
+    color: skyblue;
+}
+
+.mlist .mlist__rBox p:nth-child(2) {
+    font-size: 14px;
+    color: #888;
+}
+
+.mlist .mlist__sBox p:nth-child(1) {
+    font-size: 14px;
+    color: slateblue;
+    font-weight: 900;
+    color: #888;
+}
+
+.mlist .mlist__sBox p:nth-child(2) {
+    font-size: 14px;
+    color: #888;
+}
