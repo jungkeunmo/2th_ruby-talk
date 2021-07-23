@@ -2,6 +2,7 @@
 @import "./friends.css";
 @import "./message.css";
 @import "./profile.css";
+@import "./main.css";
 
 @media screen and (min-width: 450px) {
     .mobile__screen {

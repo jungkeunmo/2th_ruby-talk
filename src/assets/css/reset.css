@@ -137,3 +137,8 @@ a {
   color: #333;
   font-weight: bold;
 }
+
+html {
+  font-family: 'Encode Sans SC', sans-serif;
+font-family: 'Montserrat', sans-serif;
+}

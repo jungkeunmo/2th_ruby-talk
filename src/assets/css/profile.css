@@ -1,7 +1,7 @@
 .phead {
     width: 100%;
     height: 60px;
-    background-color: rgb(173, 222, 226);
+    background-color: #3B5998;
     border-bottom: 1px solid rgb(180, 178, 178);
     color: #fff;
 
@@ -44,7 +44,7 @@
     height: calc(70vh - 60px);
 }
 
-.pbottom ul li {
+.pbottom ul li form{
     width: 100%;
     height: 50px;
     border-bottom: 1px solid #999;
@@ -52,10 +52,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     color: #555;
-
-    padding: 0px 10px;
 
 }
 
