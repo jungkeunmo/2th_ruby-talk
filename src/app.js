@@ -6,6 +6,7 @@ import bodyParser from "body-parser";
 import path from "path";
 import globalRouter from "./routers/globalRouter";
 import connect from "../db";
+import expressSession from "express-session";
 
 const PORT = process.env.PORT;
 const app = express();
@@ -15,6 +16,11 @@ app.set(morgan(`dev`));
 app.use(express.static(path.join(__dirname, "/assets")));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+app.use(expressSession({
+    secret: "@#@$MYSIGN#@$#$",
+    resave: false,
+    saveUninitialized: true,
+}));
 connect();
 
 app.use("/", globalRouter);
